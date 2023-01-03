@@ -14,5 +14,10 @@ def merge_pdfs(paths, output):
         pdf_writer.write (out)
         
 if __name__ == '__main__':
-    paths = [#insert names of the files to be merged by desired order of pages]
-    merge_pdfs(paths, output = #insert str desired for the output file name)
+    paths = [#insert str (with .pdf) of the files to be merged by desired order of pages]
+    merge_pdfs(paths, output = #insert str (with .pdf) desired for the output file name)
+               
+               
+               
+               
+               
