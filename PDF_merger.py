@@ -1,3 +1,5 @@
+#All files have to be in PDF format and located under the same folder.
+
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 def merge_pdfs(paths, output):
